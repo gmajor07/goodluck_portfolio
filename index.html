@@ -1,89 +1,692 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>My - Official Portfolio</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Free HTML Templates" name="keywords">
-  <meta content="Free HTML Templates" name="description">
+    <meta charset="utf-8">
+    <title>My - Official Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
 
-  <!-- Favicon -->
-  <link href="img/favicon.ico" rel="icon">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-  <!-- Google Web Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
 
-  <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-  <!-- Libraries Stylesheet -->
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-  <!-- Customized Bootstrap Stylesheet -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Mobile</span>Developer</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#testimonial" class="nav-item nav-link">Review</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
 
-  <!-- Section Includes -->
-  <div data-include="partials/navbar.html"></div>
-  <div data-include="partials/header.html"></div>
-  <div data-include="partials/about.html"></div>
-  <div data-include="partials/qualification.html"></div>
-  <div data-include="partials/services.html"></div>
-  <div data-include="partials/detail_services.html"></div>
-  <div data-include="partials/skills.html"></div>
-  <div data-include="partials/portfolio.html"></div>
-  <div data-include="partials/testimonial.html"></div>
-  <div data-include="partials/contact.html"></div>
-  <div data-include="partials/footer.html"></div>
 
-  <!-- Scroll to Bottom -->
-  <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
-  <!-- Back to Top -->
-  <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+<!-- Header Start -->
+<div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/major.png" alt="Goodluck Kyando">
+            </div>
+            <div class="col-lg-7 text-center text-lg-left">
+                <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+                <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Goodluck Kyando</h1>
+                <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                <div class="typed-text d-none">Flutter Developer, React Native Developer, Web Developer, Mobile App Specialist</div>
+                <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                    <a href="files/Goodluck_Kyando_CV.pdf" class="btn btn-outline-light mr-5">Download CV</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
 
-  <!-- JavaScript Libraries -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
+<!-- About Start -->
+<div class="container-fluid py-5" id="about">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+            <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-5 pb-4 pb-lg-0">
+                <img class="img-fluid rounded w-100" src="img/major.png" alt="About Goodluck Kyando">
+            </div>
+            <div class="col-lg-7">
+                <h3 class="mb-4">Mobile App & Web Developer</h3>
+                <p>Results-driven developer with 7+ years of experience building cross-platform apps using Flutter and React Native. Skilled in Firebase, Supabase, Google Cloud, and payment integrations. Passionate about creating impactful, user-friendly solutions.</p>
+                <div class="row mb-3">
+                    <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Goodluck Kyando</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+255 678 733 827</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">gkyando5@gmail.com</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Dar es Salaam, Tanzania</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">BSc in ICT</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">7+ Years</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+                </div>
+                <a href="#contact" class="btn btn-outline-primary mr-4">Hire Me</a>
+                <a href="#service" class="btn btn-outline-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
 
-  <!-- Contact Javascript File -->
-  <script src="mail/jqBootstrapValidation.min.js"></script>
-  <script src="mail/contact.js"></script>
+<!-- Qualification Start -->
+<div class="container-fluid py-5" id="qualification">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Education & Experience</h1>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h3 class="mb-4">My Education</h3>
+                <div class="border-left border-primary pt-2 pl-4 ml-2">
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Bachelor of Science in ICT</h5>
+                        <p class="mb-2"><strong>Mzumbe University</strong> | <small>Graduated</small></p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Diploma in ICT</h5>
+                        <p class="mb-2"><strong>National Institute of Transport (NIT)</strong> | <small>Completed</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="mb-4">My Experience</h3>
+                <div class="border-left border-primary pt-2 pl-4 ml-2">
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Freelance Mobile Developer</h5>
+                        <p class="mb-2"><strong>Remote</strong> | <small>Apr 2018 – Present</small></p>
+                        <p>Developed 10+ apps using Flutter & React Native, integrated Firebase, ads, and payment systems. Apps reached 5,000+ downloads.</p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Freelance Website Developer</h5>
+                        <p class="mb-2"><strong>Remote</strong> | <small>2018 – Aug 2025</small></p>
+                        <p>Built company websites, custom CMS, and CRM systems for NARET Ltd. Improved SEO, traffic, and internal efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Qualification End -->
 
-  <!-- Template Javascript -->
-  <script src="js/main.js"></script>
+<!-- ===== Services Section ===== -->
+<div class="container-fluid pt-5" id="services">
+    <div class="container">
+        <div class="service-h4 position-relative d-flex align-items-center justify-content-center mb-5">
+            <h4 class="display-4 text-uppercase text-primary">My Services</h4>
+        </div>
+        <div class="row pb-3">
+            <!-- Mobile App Development -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-mobile-alt service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Mobile App Development</h4>
+                </div>
+                <p>Cross-platform apps using Flutter & React Native with Firebase, Supabase, and payment integrations.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="#mobile-dev">Read More</a>
+            </div>
 
-  <!-- Include Loader Script -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const includes = document.querySelectorAll('[data-include]');
-      includes.forEach(async el => {
-        const file = el.getAttribute('data-include');
-        try {
-          const response = await fetch(file);
-          const html = await response.text();
-          el.innerHTML = html;
-        } catch (err) {
-          el.innerHTML = "<p>Failed to load " + file + "</p>";
-        }
-      });
-    });
-  </script>
+            <!-- Web Development -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Web Development</h4>
+                </div>
+                <p>Modern responsive websites and web apps with React, Next.js, Node.js, Firebase & APIs.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="#web-dev">Read More</a>
+            </div>
+
+            <!-- UI/UX Design -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-pencil-ruler service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">UI/UX Design</h4>
+                </div>
+                <p>Clean and user-friendly interfaces using Figma, Adobe XD, and best design principles.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="#ui-ux">Read More</a>
+            </div>
+
+            <!-- CI/CD & Testing -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-cloud-upload-alt service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">CI/CD & Testing</h4>
+                </div>
+                <p>Implementing pipelines and automated tests to ensure app reliability and smooth deployment.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="#cicd">Read More</a>
+            </div>
+
+            <!-- Ads & Payment Integration -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-ad service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Ad & Payment Integration</h4>
+                </div>
+                <p>Monetizing apps with AdMob, HMS Ads, and secure payment gateways for digital transactions.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="#ads-payments">Read More</a>
+            </div>
+
+            <!-- SEO Optimization -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">SEO Optimization</h4>
+                </div>
+                <p>Improving website visibility and traffic through responsive design and search engine strategies.</p>
+                <a class="border-bottom border-primary text-decoration-none" href="#seo">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===== Detailed Services Section ===== -->
+<div class="container-fluid bg-light py-5">
+    <div class="container">
+
+        <!-- Mobile Development Detail -->
+        <div id="mobile-dev" class="mb-5">
+            <h3 class="text-primary mb-3">📱 Mobile App Development</h3>
+            <p>
+                I specialize in building <b>cross-platform mobile applications</b> using <b>Flutter</b> and <b>React Native</b>.  
+                My expertise includes:
+            </p>
+            <ul>
+                <li>Developing apps for both iOS & Android with a single codebase.</li>
+                <li>Backend integration with <b>Firebase</b>, <b>Supabase</b>, and REST APIs.</li>
+                <li>Payment gateway integration (Stripe, PayPal, Mobile Money, etc.).</li>
+                <li>Push notifications, authentication, and real-time data updates.</li>
+                <li>Deploying apps on Google Play Store & Apple App Store.</li>
+            </ul>
+            <a class="btn btn-outline-primary mt-3" href="#services">⬆ Back to Services</a>
+        </div>
+
+        <!-- Web Development Detail -->
+        <div id="web-dev" class="mb-5">
+            <h3 class="text-primary mb-3">💻 Web Development</h3>
+            <p>
+                I build <b>modern, responsive, and scalable websites</b> and web applications using the latest technologies.  
+                My web development services include:
+            </p>
+            <ul>
+                <li>Frontend development with <b>React.js</b>, <b>Next.js</b>, and Tailwind CSS.</li>
+                <li>Backend development with <b>Node.js</b>, Express, and Firebase Functions.</li>
+                <li>RESTful APIs & GraphQL integration.</li>
+                <li>Database management with Firestore, MySQL, and MongoDB.</li>
+                <li>SEO optimization & deployment with Vercel, Netlify, or custom servers.</li>
+            </ul>
+            <a class="btn btn-outline-primary mt-3" href="#services">⬆ Back to Services</a>
+        </div>
+
+        <!-- UI/UX Design Detail -->
+        <div id="ui-ux" class="mb-5">
+            <h3 class="text-primary mb-3">🎨 UI/UX Design</h3>
+            <p>
+                I design <b>user-friendly interfaces</b> with a focus on usability and aesthetics.  
+                My design workflow covers:
+            </p>
+            <ul>
+                <li>Wireframing and prototyping using <b>Figma</b> and <b>Adobe XD</b>.</li>
+                <li>Creating responsive designs for web & mobile platforms.</li>
+                <li>User flow and interaction design to improve customer experience.</li>
+                <li>Branding consistency across apps and websites.</li>
+                <li>Collaboration with developers to turn designs into real products.</li>
+            </ul>
+            <a class="btn btn-outline-primary mt-3" href="#services">⬆ Back to Services</a>
+        </div>
+
+        <!-- CI/CD & Testing -->
+        <div id="cicd" class="mb-5">
+            <h3 class="text-primary mb-3">⚙️ CI/CD & Testing</h3>
+            <p>
+                I implement <b>Continuous Integration and Continuous Deployment pipelines</b> to automate builds, testing, and releases.  
+                My CI/CD & testing expertise includes:
+            </p>
+            <ul>
+                <li>Automating builds with GitHub Actions, GitLab CI, or Bitrise.</li>
+                <li>Running unit, widget, and integration tests before release.</li>
+                <li>Ensuring reliable deployments to Google Play, App Store, and AppGallery.</li>
+                <li>Reducing human error and improving delivery speed.</li>
+            </ul>
+            <a class="btn btn-outline-primary mt-3" href="#services">⬆ Back to Services</a>
+        </div>
+
+        <!-- Ads & Payment Integration -->
+        <div id="ads-payments" class="mb-5">
+            <h3 class="text-primary mb-3">💰 Ads & Payment Integration</h3>
+            <p>
+                I help monetize and scale apps by integrating <b>ads and secure payment systems</b>.  
+                My services include:
+            </p>
+            <ul>
+                <li>Ad integration: <b>Google AdMob</b>, <b>Huawei Ads</b>, Facebook Audience Network.</li>
+                <li>In-app purchase systems for digital products and subscriptions.</li>
+                <li>Payment gateway integration (Stripe, PayPal, Mobile Money, Visa/MasterCard).</li>
+                <li>Ensuring compliance with Play Store & App Store policies.</li>
+            </ul>
+            <a class="btn btn-outline-primary mt-3" href="#services">⬆ Back to Services</a>
+        </div>
+
+        <!-- SEO Optimization -->
+        <div id="seo">
+            <h3 class="text-primary mb-3">🔍 SEO Optimization</h3>
+            <p>
+                I improve <b>website visibility</b> and <b>organic traffic</b> with modern SEO practices.  
+                My SEO services include:
+            </p>
+            <ul>
+                <li>On-page SEO (meta tags, site structure, keyword optimization).</li>
+                <li>Mobile-first responsive design for better Google ranking.</li>
+                <li>Technical SEO: site speed, clean URLs, schema markup.</li>
+                <li>Off-page SEO: backlinks, content strategy, analytics tracking.</li>
+            </ul>
+            <a class="btn btn-outline-primary mt-3" href="#services">⬆ Back to Services</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- ===== Smooth Scrolling CSS ===== -->
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
+
+
+
+ <!-- Skill Start -->
+<div class="container-fluid py-5" id="skill">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+            <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">Flutter (Bloc, Provider, Riverpod)</h6>
+                        <h6 class="font-weight-bold">95%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">React Native</h6>
+                        <h6 class="font-weight-bold">90%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">Firebase & Supabase</h6>
+                        <h6 class="font-weight-bold">90%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">PHP & MySQL</h6>
+                        <h6 class="font-weight-bold">85%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">Mobile UI/UX Design</h6>
+                        <h6 class="font-weight-bold">90%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">CI/CD & Testing</h6>
+                        <h6 class="font-weight-bold">85%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Skill End -->
+<!-- Portfolio Start -->
+<div class="container-fluid pt-5 pb-3" id="portfolio">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+            <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center mb-2">
+                <ul class="list-inline mb-4" id="portfolio-flters">
+                    <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".apps-flutter">Flutter Projects</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".apps-react">React Native Projects</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".apps-kotlin">Kotlin Projects</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".apps-ios">iOS Projects</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".web">Web</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".systems">Systems</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".games">Games</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row portfolio-container">
+            
+            <!-- Love Message App -->
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item apps-flutter">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/love-message.png" alt="Love Message App">
+                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="https://appgallery.huawei.com/app/C111988657" target="_blank">
+                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5 class="mb-1">Love Message & Quotes</h5>
+                    <p class="small text-muted">Developed a love-themed mobile app using Flutter and Firebase, allowing users to browse, copy, and share love messages. Integrated Firebase Firestore for real-time data storage, Firebase Authentication for secure login, and push notifications to keep users engaged. Designed a clean, responsive UI for smooth performance on both Android and iOS devices.</p>
+                </div>
+            </div>
+
+            <!-- Digital Dalali -->
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item apps-flutter">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/digital-dalali.png" alt="Digital Dalali">
+                </div>
+                <div class="text-center mt-2">
+                    <h5 class="mb-1">Digital Dalali</h5>
+                    <p class="small text-muted">A mobile app built with Flutter to connect property buyers, sellers, and agents in a seamless way. The app includes property listing, filtering, and real-time updates. Focused on simplifying property searches and reducing the gap between clients and agents.</p>
+                </div>
+            </div>
+
+            <!-- Water Bill App -->
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item apps-flutter">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/water-bill.png" alt="Water Bill App">
+                </div>
+                <div class="text-center mt-2">
+                    <h5 class="mb-1">Water Bill App</h5>
+                    <p class="small text-muted">An app for checking and managing water bill payments conveniently.</p>
+                </div>
+            </div>
+
+            <!-- Tic Tac Toe Game -->
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item games">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/tic.png" alt="Tic Tac Toe">
+                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="https://appgallery.huawei.com/app/C111988181" target="_blank">
+                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5 class="mb-1">Tic Tac Toe</h5>
+                    <p class="small text-muted">Classic two-player strategy game built for mobile fun.</p>
+                </div>
+            </div>
+
+            <!-- Puzzle Palette Game -->
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item games">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/pz.png" alt="Puzzle Palette">
+                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="https://appgallery.huawei.com/app/C111765097" target="_blank">
+                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5 class="mb-1">Puzzle Palette</h5>
+                    <p class="small text-muted">A creative puzzle game designed to challenge your mind and relax you.</p>
+                </div>
+            </div>
+
+            <!-- Wallblend Wallpaper -->
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item apps-flutter">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/wallblend.png" alt="Wallblend Wallpaper">
+                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="https://appgallery.huawei.com/app/C112640363" target="_blank">
+                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5 class="mb-1">Wallblend Wallpaper</h5>
+                    <p class="small text-muted">A creative wallpaper app that allows users to browse, download, and apply unique wallpapers for their devices. Includes category-based browsing, smooth UI animations, and offline saving features.</p>
+                </div>
+            </div>
+
+            <!-- Shop -->
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item apps-ios">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/shop.png" alt="MyShop">
+                    
+                </div>
+                <div class="text-center mt-2">
+                    <h5 class="mb-1">MyShop</h5>
+                    <p class="small text-muted">An iOS app developed in Swift for product browsing and shopping. Users can register, view products, add items to cart, and complete purchases. The app demonstrates modern SwiftUI architecture with Firebase integration for authentication and database.                    </p>
+                </div>
+            </div>
+            <!-- SMS -->
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item apps-react">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/std.png" alt="School Management System">
+                    
+                </div>
+                <div class="text-center mt-2">
+                    <h5 class="mb-1">School Management System</h5>
+                    <p class="small text-muted"> Student Management App using React Native, designed to make tracking students, courses, and grades easier. The app includes features such as student registration, profile management, and real-time updates. Through this project, I strengthened my knowledge in cross-platform development, navigation, state management, and backend integration with Firebase.</p>
+                </div>
+            </div>
+  <!-- Saving Pool -->
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item apps-kotlin">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/save.png" alt="Saving Pool">
+                    
+                </div>
+                <div class="text-center mt-2">
+                    <h5 class="mb-1">Saving Pool</h5>
+                    <p class="small text-muted">Saving Pool is a group-based savings app that helps people contribute money collectively and take turns receiving the full amount. Each member contributes a fixed amount at regular intervals, and in each cycle, one member receives the total pooled funds. This continues until every member has received their share. It’s a smart, trust-based way to save together, support each other, and reach financial goals—one turn at a time.</p>
+                </div>
+            </div>
+
+            <!-- NARET Website -->
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item web">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/naret-website.png" alt="NARET Company Website">
+                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="https://naret.co.tz" target="_blank">
+                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5 class="mb-1">NARET Company Website</h5>
+                    <p class="small text-muted">Corporate website for NARET showcasing services and portfolio.</p>
+                </div>
+            </div>
+
+            <!-- NARET CRM System -->
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item systems">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/cms.png" alt="NARET CRM & Messaging System">
+                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="https://naret.co.tz/customerSupport/login.php" target="_blank">
+                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5 class="mb-1">NARET CRM & Messaging System</h5>
+                    <p class="small text-muted">A customer relationship management and messaging platform for businesses.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Portfolio End -->
+
+
+<!-- Testimonial Start -->
+<div class="container-fluid py-5" id="testimonial">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Clients Say</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="text-center">
+                        <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                        <h4 class="font-weight-light mb-4">Goodluck delivered our mobile app ahead of schedule with flawless functionality. His communication and professionalism were top-notch.</h4>
+                        <h5 class="font-weight-bold m-0">NARET Company Ltd</h5>
+                        <span>CEO</span>
+                    </div>
+                    <div class="text-center">
+                        <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                        <h4 class="font-weight-light mb-4">The CRM system he built saved us hours every week. Highly recommend his services for any business automation needs.</h4>
+                        <h5 class="font-weight-bold m-0">NARET Company Ltd</h5>
+                        <span>Operations Manager</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+
+ <!-- Contact Start -->
+<div class="container-fluid py-5" id="contact">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <p class="mb-3"><i class="fa fa-phone text-primary mr-2"></i> +255 678 733 827</p>
+                <p class="mb-3"><i class="fa fa-envelope text-primary mr-2"></i> gkyand5@gmail.com</p>
+                <p class="mb-3">
+                    <i class="fab fa-linkedin text-primary mr-2"></i> 
+                    <a href="https://linkedin.com/in/your-link" target="_blank">LinkedIn Profile</a>
+                </p>
+                <p class="mb-3">
+                    <i class="fab fa-github text-primary mr-2"></i> 
+                    <a href="https://github.com/your-username" target="_blank">GitHub Profile</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+
+
+<!-- Footer Start -->
+<div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+    <div class="container text-center py-5">
+        <div class="d-flex justify-content-center mb-4">
+            <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/goodluck-kyando" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a class="btn btn-light btn-social" href="https://github.com/gmajor07" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <p class="m-0">
+            &copy; <span class="font-weight-bold">Goodluck Kyando</span>. All Rights Reserved.
+        </p>
+        <p class="m-0">
+            Designed & Developed by <span class="font-weight-bold">Goodluck Kyando</span>
+        </p>
+    </div>
+</div>
+<!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
